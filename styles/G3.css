@@ -134,8 +134,13 @@ main > section{
     margin-top: 10px;
     color: #727272;
 }
+.fact-head{
+    margin-bottom: 24px ;
+}
 .fact-description{
     max-width: 540px;
+    margin-top: 5px;
+    margin-bottom: 70px;
 }
 
 
@@ -146,8 +151,12 @@ main > section{
         flex-direction: column;
     }
 
-    .team-img-container{
-        grid-template-columns: repeat(1, 1fr);
+    .team-img-container, .facts-container{
+        grid-template-columns: 1fr;
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
     }
 
     .our-features{
