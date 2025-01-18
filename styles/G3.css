@@ -234,6 +234,9 @@ main > section{
         margin-top: 18px;
         text-align: center;
     }
+    .feature-architect{
+        width: 100%;
+    }
 }
 
 /* Medium size device */
@@ -259,7 +262,7 @@ main > section{
         margin-left: 20px;
       }
       #last{
-        width: 100%;
+        width: 70%;
         margin: auto;
         margin-top: 20px;
       }
