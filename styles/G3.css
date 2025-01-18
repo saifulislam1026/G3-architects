@@ -229,13 +229,14 @@ main > section{
       margin-left: 20px;
     }
     #last{
-        width: 100%;
+        width: 50%;
         margin: auto;
         margin-top: 18px;
         text-align: center;
     }
-    .feature-architect{
+    .feature-img{
         width: 100%;
+
     }
 }
 
