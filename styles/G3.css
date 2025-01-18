@@ -192,17 +192,20 @@ main > section{
 }
 /* footer styles */
 #last{
-    width: 60%;
+    width: 900px;
+    padding: 20px ;
     text-align: center;
-    margin: 70px 240px 80px 240px;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(255, 244, 231, 1);
-    border: 1px solid rgba(255, 244, 231, 1) ;
-    padding: 30px;
+    margin: 50px auto;
+    margin-left: 230px;
+    
 }
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams, .features, #last  {
+    .navbar, .nav-links, .teams, .features {
         flex-direction: column;
     }
 
@@ -224,6 +227,12 @@ main > section{
     #experience-badge{
       margin-top: 20px;
       margin-left: 20px;
+    }
+    #last{
+        width: 100%;
+        margin: auto;
+        margin-top: 18px;
+        text-align: center;
     }
 }
 
@@ -248,5 +257,10 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+      }
+      #last{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
       }
 }
